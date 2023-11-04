@@ -1,26 +1,26 @@
 @font-face {
-  font-family: "agrandirregular";
+  font-family: agrandirregular;
   src: url("./fonts/agrandir_regular_400-webfont.woff2") format("woff2"),
     url("./fonts/agrandir_regular_400-webfont.woff") format("woff");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "agrandirtext_bold";
+  font-family: agrandirtext_bold;
   src: url("./fonts/agrandir_text_bold_700-webfont.woff2") format("woff2"),
     url("./fonts/agrandir_text_bold_700-webfont.woff") format("woff");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "agrandirgrand_heavy";
+  font-family: agrandirgrand_heavy;
   src: url("./fonts/agrandir_grand_heavy_800-webfont.woff2") format("woff2"),
     url("./fonts/agrandir_grand_heavy_800-webfont.woff") format("woff");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 * {
-  font-family: "agrandirregular";
+  font-family: agrandirregular;
   margin: 0;
   padding: 0;
   box-sizing: border-box;

@@ -17,7 +17,10 @@ function Contact() {
         </p>
         <div id="socials">
           <div className="social-icon">
-            <a href="https://github.com/Tommy-Bada">
+            <a
+              href="https://github.com/Tommy-Bada"
+              aria-label="This Links to my Github"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2xl"
@@ -26,7 +29,10 @@ function Contact() {
             </a>
           </div>
           <div className="social-icon">
-            <a href="https://twitter.com/Badman_Bada">
+            <a
+              href="https://twitter.com/Badman_Bada"
+              aria-label="This Links to my Twitter"
+            >
               <FontAwesomeIcon
                 icon={faTwitter}
                 size="2xl"
@@ -35,7 +41,10 @@ function Contact() {
             </a>
           </div>
           <div className="social-icon">
-            <a href="https://www.linkedin.com/in/tomiwa-bada-572018173/">
+            <a
+              href="https://www.linkedin.com/in/tomiwa-bada-572018173/"
+              aria-label="This Links to my Linkedin"
+            >
               <FontAwesomeIcon
                 icon={faLinkedinIn}
                 size="2xl"

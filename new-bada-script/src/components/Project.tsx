@@ -12,7 +12,13 @@ function Project(props: ProjectProps): JSX.Element {
     <a href={props.url}>
       <div className="project-section">
         <div>
-          <img src={props.image} />
+          <img
+            src={props.image}
+            alt={props.title}
+            loading="lazy"
+            sizes="(max-width: 320px) 300px,
+            300px"
+          />
         </div>
         <h2>{props.title}</h2>
         <h3>{props.stacks}</h3>

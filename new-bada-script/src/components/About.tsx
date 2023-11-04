@@ -5,7 +5,13 @@ function About() {
   return (
     <div className="about-section" id="bio">
       <div className="profile-picture">
-        <img src={headshot} alt="profile picture" />
+        <img
+          src={headshot}
+          alt="profile picture"
+          loading="lazy"
+          sizes="(max-width: 320px) 300px,
+            300px"
+        />
       </div>
       <h1>Hello, I am Tomiwa Bada</h1>
       <h2> &lt; BadaScript /&gt;</h2>

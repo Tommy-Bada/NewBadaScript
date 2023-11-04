@@ -1,11 +1,21 @@
-/** Mobile Nav Bar **/
+#hamburger-icon,
 #mobile-menu {
-  position: absolute;
   display: none;
 }
-
+#logo,
 header {
   display: flex;
+}
+#nav-list > ul > li,
+.linker {
+  color: #fff;
+  font-size: 1.6rem;
+  display: inline;
+}
+#mobile-menu {
+  position: absolute;
+}
+header {
   align-items: center;
   justify-content: space-between;
   background: #081120;
@@ -14,58 +24,56 @@ header {
   position: fixed;
   z-index: 1;
 }
-#hamburger-icon {
-  display: none;
-}
 #logo {
-  display: flex;
   align-items: center;
 }
 #logo > h1 {
   font-size: 2.4rem;
   margin-left: 1rem;
   color: #d3f500;
-  font-family: "agrandirgrand_heavy";
+  font-family: agrandirgrand_heavy;
 }
-/* #nav-list {
-    margin-left: 25rem;
-  } */
 #nav-list > ul > li {
-  color: white;
-  display: inline;
   margin-right: 5rem;
-  font-size: 1.6rem;
-  transition: all 0.5s ease;
+  transition: 0.5s;
 }
 .linker {
-  color: white;
   text-decoration: none;
-  font-size: 1.6rem;
-  display: inline;
 }
 #nav-list > ul > li:hover {
   font-size: 2rem;
   cursor: pointer;
   color: #d3f500;
 }
-
 @media (max-width: 768px) {
+  #logo > div,
+  .dsf-mobile {
+    display: none;
+  }
+  #hamburger-icon,
+  #mobile-menu {
+    display: block;
+  }
+  .hamburger-line-1,
+  .hamburger-line-2 {
+    background-color: #d3f500;
+    height: 1px;
+    margin-bottom: 1rem;
+  }
   #logo > h1 {
     font-size: 1.8rem;
   }
   #logo > div {
     width: 4rem;
-    display: none;
   }
   #mobile-menu {
     position: fixed;
-    display: block;
     opacity: 0;
     background-color: #081120;
     height: 100vh;
     z-index: 2;
     width: 100%;
-    transition: all 0.4s ease;
+    transition: 0.4s;
     transform: translateY(-100vh);
   }
   #mobile-menu > ul {
@@ -84,23 +92,11 @@ header {
     padding: 2rem;
     z-index: 2;
   }
-  .dsf-mobile {
-    display: none;
-  }
-  #hamburger-icon {
-    display: block;
-  }
   .hamburger-line-1 {
-    background-color: #d3f500;
     width: 5rem;
-    height: 1px;
-    margin-bottom: 1rem;
   }
   .hamburger-line-2 {
-    background-color: #d3f500;
     width: 3rem;
-    height: 1px;
-    margin-bottom: 1rem;
-    transition: all 0.5s ease;
+    transition: 0.5s;
   }
 }

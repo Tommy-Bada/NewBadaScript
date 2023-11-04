@@ -3,14 +3,14 @@
   padding: 2rem;
   text-align: left;
 }
-.phone,
-.mail {
+.mail,
+.phone {
   text-align: left;
   padding: 0;
   margin-bottom: 1rem;
 }
 .contact-section > div > p > a {
-  color: white;
+  color: #fff;
   font-size: 1.6rem;
 }
 #socials {
