@@ -1,16 +1,15 @@
 import "./About.css";
-import headshot from "../assets/headshot.jpg";
 
 function About() {
   return (
     <div className="about-section" id="bio">
       <div className="profile-picture">
         <img
-          src={headshot}
+          src="https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699173554/Portfolio/headshot_xw1noh_rsdmid.jpg"
           alt="profile picture"
           loading="lazy"
-          sizes="(max-width: 320px) 300px,
-            300px"
+          width="300"
+          height="auto"
         />
       </div>
       <h1>Hello, I am Tomiwa Bada</h1>

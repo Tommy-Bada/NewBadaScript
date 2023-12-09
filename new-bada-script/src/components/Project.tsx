@@ -16,8 +16,9 @@ function Project(props: ProjectProps): JSX.Element {
             src={props.image}
             alt={props.title}
             loading="lazy"
-            sizes="(max-width: 320px) 300px,
-            300px"
+            sizes="(max-width: 320px) 300px, 300px"
+            height="auto"
+            width="100%"
           />
         </div>
         <h2>{props.title}</h2>

@@ -1,10 +1,21 @@
-// import { useState } from "react";
-import "./App.css";
-import Header from "./components/Header";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Blog from "./components/Blog";
-import Contact from "./components/Contact";
+import { lazy } from "react";
+
+const Header = lazy(() => import("./components/Header"));
+const About = lazy(() => import("./components/About"));
+const Portfolio = lazy(() => import("./components/Portfolio"));
+const Blog = lazy(() => import("./components/Blog"));
+const Contact = lazy(() => import("./components/Contact"));
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.ts")
+    .then((registration) => {
+      console.log("Service Worker registered with scope:", registration.scope);
+    })
+    .catch((error) => {
+      console.error("Service Worker registration failed:", error);
+    });
+}
 
 function App() {
   return (

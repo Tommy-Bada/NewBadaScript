@@ -1,25 +1,19 @@
 import "./Portfolio.css";
 import Project from "./Project";
-import geegpay from "../assets/Geegpay.png";
-import countrydetailer from "../assets/countrydetailer.png";
-import electpoll from "../assets/electpoll.png";
-import expensetracker from "../assets/expensetracker.png";
-import metamask from "../assets/metamask.png";
-import plwlsn from "../assets/plwlsn.png";
-import sanwo from "../assets/sanwo.png";
-import uigpa from "../assets/uigpa.png";
 
 function Portfolio() {
   const projects = [
     {
-      image: plwlsn,
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171818/Portfolio/plwlsn_vzfx1b.png",
       title: "PL-WLSN Stores",
       description: "A Men's fashion store for exclusive wears for PLWLSN Brand",
       url: "https://plwlsn.netlify.app",
       stacks: "React + CSS + Cloudinary + Paystack",
     },
     {
-      image: metamask,
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171806/Portfolio/metamask_jjllnl.png",
       title: "Metamask",
       description:
         "A web3 real estate app that allows users to rent properties in the metaverse using etherium",
@@ -27,7 +21,8 @@ function Portfolio() {
       stacks: "React + CSS",
     },
     {
-      image: geegpay,
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171819/Portfolio/Geegpay_zxfkmq.png",
       title: "Geegpay",
       description:
         "Responsive landing page replication, with DOM manipulation for custom content for Nigeria and Kenya. ",
@@ -35,14 +30,16 @@ function Portfolio() {
       stacks: "HTML + CSS + JavaScript",
     },
     {
-      image: countrydetailer,
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171793/Portfolio/countrydetailer_pvqaxc.png",
       title: "Country API",
       description: "A counrty detailer app that fetches data froman API",
       url: "https://countrydetailer.netlify.app",
       stacks: "HTML + CSS + JavaScript",
     },
     {
-      image: electpoll,
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171792/Portfolio/electpoll_k3ibnd.png",
       title: "Electpoll",
       description:
         "A voting app that is used for conducting elections and polls in institutions and organizations",
@@ -50,7 +47,8 @@ function Portfolio() {
       stacks: "HTML + CSS + JavaScript + Airtable",
     },
     {
-      image: expensetracker,
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171766/Portfolio/expensetracker_vtf53u.png",
       title: "Expense Tracker",
       description:
         "An expense tracker app that helps you keep track of your expenses",
@@ -58,7 +56,8 @@ function Portfolio() {
       stacks: "HTML + CSS + JavaScript",
     },
     {
-      image: uigpa,
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171773/Portfolio/uigpa_aryvoq.png",
       title: "CGPA Calculator",
       description:
         "A CGPA calculator that helps you calculate your CGPA with ease. Built for the academic team of the Department of Mathematics, University of Ibadan.",
@@ -66,7 +65,8 @@ function Portfolio() {
       stacks: "HTML + CSS + JavaScript",
     },
     {
-      image: sanwo,
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171780/Portfolio/sanwo_fi6nb8.png",
       title: "Sanwo Landing Page",
       description:
         "A landing page for a fintech in Ibadan that helps with escrow payments",

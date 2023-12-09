@@ -1,11 +1,11 @@
 import "./Blog.css";
 import Project from "./Project";
-import fyi from "../assets/fyi.png";
 
 function Blog() {
   const articles = [
     {
-      image: fyi,
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171818/Portfolio/fyi_pjeinz.png",
       title: "First Year In",
       description:
         "An article about my first year in the tech industry, and how I got here. You might find it inspiring, but it is mostly for documentation purpose.",
