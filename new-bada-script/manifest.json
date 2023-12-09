@@ -34,7 +34,7 @@
   "related_applications": [
     {
       "platform": "windows",
-      "url": ""
+      "url": "https://www.newbadascript.netlify.app"
     }
   ],
   "prefer_related_applications": false,
