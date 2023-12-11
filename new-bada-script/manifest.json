@@ -1,7 +1,7 @@
 {
   "name": "BadaScript",
   "short_name": "Bada",
-  "start_url": "newbadascript.netlify.app",
+  "start_url": "https://newbadascript.netlify.app",
   "display": "standalone",
   "description": "A description for your application",
   "lang": " The default language of your application",
@@ -34,7 +34,7 @@
   "related_applications": [
     {
       "platform": "windows",
-      "url": "https://www.newbadascript.netlify.app"
+      "url": "https://newbadascript.netlify.app"
     }
   ],
   "prefer_related_applications": false,
