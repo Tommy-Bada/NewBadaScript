@@ -5,6 +5,7 @@ const About = lazy(() => import("./components/About"));
 const Portfolio = lazy(() => import("./components/Portfolio"));
 const Blog = lazy(() => import("./components/Blog"));
 const Contact = lazy(() => import("./components/Contact"));
+const Cursor = lazy(() => import("./components/Cursor"));
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
@@ -25,6 +26,7 @@ function App() {
       <Portfolio />
       <Blog />
       <Contact />
+      <Cursor />
     </>
   );
 }

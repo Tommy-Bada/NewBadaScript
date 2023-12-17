@@ -1,0 +1,15 @@
+.cursor {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  transition: all 0.1s ease-out;
+  background: #d3f500;
+}
+.default-cursor-style {
+  height: 2rem;
+  width: 2rem;
+}
+.project-hovered-style {
+  width: 5rem;
+  height: 5rem;
+}
