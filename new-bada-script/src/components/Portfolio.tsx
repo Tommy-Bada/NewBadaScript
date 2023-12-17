@@ -9,7 +9,41 @@ function Portfolio() {
       title: "PL-WLSN Stores",
       description: "A Men's fashion store for exclusive wears for PLWLSN Brand",
       url: "https://plwlsn.netlify.app",
-      stacks: "React + CSS + Cloudinary + Paystack",
+      stacks: "React + CSS + Paystack",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702826717/Portfolio/jubal_Dashboard_fcgzig.png",
+      title: "Jubal",
+      description:
+        "A marketplace for Africa's foremost creative and musical talents",
+      url: "https://thejubal.com",
+      stacks: "Next Js + TypeScript + Tailwind CSS",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171792/Portfolio/electpoll_k3ibnd.png",
+      title: "Electpoll",
+      description:
+        "A voting app that is used for conducting elections and polls in institutions and organizations",
+      url: "https://electpoll.com",
+      stacks: "Vanilla JS + Airtable",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702827321/Portfolio/ziara_uxazgg.png",
+      title: "Ziara",
+      description: "A Creative fashion E-commerce Website",
+      url: "https://ziara-fashion.netlify.app",
+      stacks: "Vanilla JS + TailwindCSS + GSAP",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702827283/Portfolio/traka_jprwc6.png",
+      title: "Traka",
+      description: "A task management app for tracking daily productivity",
+      url: "https://traka-manager.netlify.app",
+      stacks: "React JS + TailwindCSS + Firebase",
     },
     {
       image:
@@ -18,51 +52,7 @@ function Portfolio() {
       description:
         "A web3 real estate app that allows users to rent properties in the metaverse using etherium",
       url: "https://rentnft.netlify.app",
-      stacks: "React + CSS",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171819/Portfolio/Geegpay_zxfkmq.png",
-      title: "Geegpay",
-      description:
-        "Responsive landing page replication, with DOM manipulation for custom content for Nigeria and Kenya. ",
-      url: "https://goldfinance.netlify.app",
-      stacks: "HTML + CSS + JavaScript",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171793/Portfolio/countrydetailer_pvqaxc.png",
-      title: "Country API",
-      description: "A counrty detailer app that fetches data froman API",
-      url: "https://countrydetailer.netlify.app",
-      stacks: "HTML + CSS + JavaScript",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171792/Portfolio/electpoll_k3ibnd.png",
-      title: "Electpoll",
-      description:
-        "A voting app that is used for conducting elections and polls in institutions and organizations",
-      url: "https://electpoll.netlify.app",
-      stacks: "HTML + CSS + JavaScript + Airtable",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171766/Portfolio/expensetracker_vtf53u.png",
-      title: "Expense Tracker",
-      description:
-        "An expense tracker app that helps you keep track of your expenses",
-      url: "https://transak.netlify.app",
-      stacks: "HTML + CSS + JavaScript",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171773/Portfolio/uigpa_aryvoq.png",
-      title: "CGPA Calculator",
-      description:
-        "A CGPA calculator that helps you calculate your CGPA with ease. Built for the academic team of the Department of Mathematics, University of Ibadan.",
-      url: "https://uigpa.netlify.app",
-      stacks: "HTML + CSS + JavaScript",
+      stacks: "React Js + CSS",
     },
     {
       image:
@@ -71,7 +61,23 @@ function Portfolio() {
       description:
         "A landing page for a fintech in Ibadan that helps with escrow payments",
       url: "https://sanwo-homepage.netlify.app",
-      stacks: "React",
+      stacks: "React + CSS",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702827298/Portfolio/starwars_xhct17.png",
+      title: "Star Wars",
+      description: "A Starwar movies app that fetches data from an API",
+      url: "https://sunwars.netlify.app",
+      stacks: "React js + TailwindCSS + Starwars API",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171793/Portfolio/countrydetailer_pvqaxc.png",
+      title: "Country API",
+      description: "A counrty detailer app that fetches data froman API",
+      url: "https://countrydetailer.netlify.app",
+      stacks: "JavaScript + CSS + Country API",
     },
   ].map((project) => (
     <Project

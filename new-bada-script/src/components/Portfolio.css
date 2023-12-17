@@ -3,10 +3,11 @@
   padding: 3rem 2rem;
 }
 .portfolio-section > div {
+  width: 100%;
   display: flex;
   gap: 5rem;
-  align-items: center;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
 }
 h1 {
@@ -19,6 +20,7 @@ h1 {
 @media (max-width: 768px) {
   .portfolio-section > div {
     display: flex;
+    gap: 2rem;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;

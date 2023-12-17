@@ -87,6 +87,9 @@ header {
   .mobile-linker {
     font-size: 3rem;
   }
+  .mobile-linker:hover {
+    color: #d3f500;
+  }
   header {
     justify-content: space-between;
     padding: 2rem;
