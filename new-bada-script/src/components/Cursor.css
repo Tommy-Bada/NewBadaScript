@@ -13,3 +13,9 @@
   width: 5rem;
   height: 5rem;
 }
+
+@media (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+}
