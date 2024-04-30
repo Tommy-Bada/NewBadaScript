@@ -61,6 +61,14 @@ function Header() {
               Contact
             </ScrollIntoView>
           </li>
+          <li>
+            <a
+              className="mobile-linker"
+              href="https://drive.google.com/drive/folders/1KmxikYHZlCYkDIDsoY8TKyKQ3KKdIuAX?usp=drive_link"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </div>
       <header>
@@ -94,6 +102,14 @@ function Header() {
               <ScrollIntoView selector="#contact" className="linker">
                 Contact
               </ScrollIntoView>
+            </li>
+            <li>
+              <a
+                className="linker"
+                href="https://drive.google.com/drive/folders/1KmxikYHZlCYkDIDsoY8TKyKQ3KKdIuAX?usp=drive_link"
+              >
+                Resume
+              </a>
             </li>
           </ul>
         </div>

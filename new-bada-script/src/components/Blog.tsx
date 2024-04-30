@@ -12,6 +12,24 @@ function Blog() {
       url: "https://medium.com/@tomiwabada/first-year-in-9e1b8b9cb84",
       stacks: "Medium",
     },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1714452797/Portfolio/staying_motivated_uc3e0e.png",
+      title: "Staying Motivated as a Self Learning Developer",
+      description:
+        "A guide on how to stay motivated as a self-taught developer, from my personal experience.",
+      url: "https://medium.com/@tomiwabada/staying-motivated-as-a-self-learning-developer-6c68ab66252a",
+      stacks: "Medium",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1714452795/Portfolio/second_year_uilwki.png",
+      title: "My second year as a developer",
+      description:
+        "A guide on how to stay motivated as a self-taught developer, from my personal experience.",
+      url: "https://medium.com/@tomiwabada/second-year-already-1244c3cac093",
+      stacks: "Medium",
+    },
   ].map((project) => (
     <Project
       key={project.title}

@@ -40,11 +40,11 @@ header {
 .linker {
   text-decoration: none;
 }
-#nav-list > ul > li:hover {
+/* #nav-list > ul > li:hover {
   font-size: 2rem;
   cursor: pointer;
   color: #d3f500;
-}
+} */
 @media (max-width: 768px) {
   #logo > div,
   .dsf-mobile {
@@ -88,6 +88,9 @@ header {
     font-size: 3rem;
   }
   .mobile-linker:hover {
+    color: #d3f500;
+  }
+  a {
     color: #d3f500;
   }
   header {

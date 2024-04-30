@@ -13,6 +13,15 @@ function Portfolio() {
     },
     {
       image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1714452562/Portfolio/wasset_jetsia.png",
+      title: "Wasset",
+      description:
+        "A waste market place that connects waste producers to waste collectors and recyclers",
+      url: "https://wasset.io",
+      stacks: "React Js + Next JS + TypeScript + Tailwind CSS",
+    },
+    {
+      image:
         "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702826717/Portfolio/jubal_Dashboard_fcgzig.png",
       title: "Jubal",
       description:
@@ -27,7 +36,7 @@ function Portfolio() {
       description:
         "A voting app that is used for conducting elections and polls in institutions and organizations",
       url: "https://electpoll.com",
-      stacks: "Vanilla JS + Airtable",
+      stacks: "React JS + Airtable",
     },
     {
       image:
@@ -37,23 +46,23 @@ function Portfolio() {
       url: "https://ziara-fashion.netlify.app",
       stacks: "Vanilla JS + TailwindCSS + GSAP",
     },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702827283/Portfolio/traka_jprwc6.png",
-      title: "Traka",
-      description: "A task management app for tracking daily productivity",
-      url: "https://traka-manager.netlify.app",
-      stacks: "React JS + TailwindCSS + Firebase",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171806/Portfolio/metamask_jjllnl.png",
-      title: "Metamask",
-      description:
-        "A web3 real estate app that allows users to rent properties in the metaverse using etherium",
-      url: "https://rentnft.netlify.app",
-      stacks: "React Js + CSS",
-    },
+    // {
+    //   image:
+    //     "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702827283/Portfolio/traka_jprwc6.png",
+    //   title: "Traka",
+    //   description: "A task management app for tracking daily productivity",
+    //   url: "https://traka-manager.netlify.app",
+    //   stacks: "React JS + TailwindCSS + Firebase",
+    // },
+    // {
+    //   image:
+    //     "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171806/Portfolio/metamask_jjllnl.png",
+    //   title: "Metamask",
+    //   description:
+    //     "A web3 real estate app that allows users to rent properties in the metaverse using etherium",
+    //   url: "https://rentnft.netlify.app",
+    //   stacks: "React Js + CSS",
+    // },
     {
       image:
         "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171780/Portfolio/sanwo_fi6nb8.png",
@@ -63,22 +72,22 @@ function Portfolio() {
       url: "https://sanwo-homepage.netlify.app",
       stacks: "React + CSS",
     },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702827298/Portfolio/starwars_xhct17.png",
-      title: "Star Wars",
-      description: "A Starwar movies app that fetches data from an API",
-      url: "https://sunwars.netlify.app",
-      stacks: "React js + TailwindCSS + Starwars API",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171793/Portfolio/countrydetailer_pvqaxc.png",
-      title: "Country API",
-      description: "A counrty detailer app that fetches data froman API",
-      url: "https://countrydetailer.netlify.app",
-      stacks: "JavaScript + CSS + Country API",
-    },
+    // {
+    //   image:
+    //     "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702827298/Portfolio/starwars_xhct17.png",
+    //   title: "Star Wars",
+    //   description: "A Starwar movies app that fetches data from an API",
+    //   url: "https://sunwars.netlify.app",
+    //   stacks: "React js + TailwindCSS + Starwars API",
+    // },
+    // {
+    //   image:
+    //     "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171793/Portfolio/countrydetailer_pvqaxc.png",
+    //   title: "Country API",
+    //   description: "A counrty detailer app that fetches data froman API",
+    //   url: "https://countrydetailer.netlify.app",
+    //   stacks: "JavaScript + CSS + Country API",
+    // },
   ].map((project) => (
     <Project
       key={project.title}
