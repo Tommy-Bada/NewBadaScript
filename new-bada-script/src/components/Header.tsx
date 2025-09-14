@@ -64,7 +64,7 @@ function Header() {
           <li>
             <a
               className="mobile-linker"
-              href="https://drive.google.com/drive/folders/1KmxikYHZlCYkDIDsoY8TKyKQ3KKdIuAX?usp=drive_link"
+              href="https://drive.google.com/drive/folders/1xqANi8i1NepPnp1TGoXsNhRazHeDC02T?usp=sharing"
             >
               Resume
             </a>
@@ -106,7 +106,7 @@ function Header() {
             <li>
               <a
                 className="linker"
-                href="https://drive.google.com/drive/folders/1KmxikYHZlCYkDIDsoY8TKyKQ3KKdIuAX?usp=drive_link"
+                href="https://drive.google.com/drive/folders/1xqANi8i1NepPnp1TGoXsNhRazHeDC02T?usp=sharing"
               >
                 Resume
               </a>

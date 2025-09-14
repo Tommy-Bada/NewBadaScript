@@ -5,29 +5,35 @@ function Portfolio() {
   const projects = [
     {
       image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1757835389/Screenshot_2025-09-14_at_08.02.03_f08jw5.png",
+      title: "SERVAURA",
+      description: "A Luxury Home Service Brand with subscription based plans",
+      url: "https://servaura.com",
+      stacks: "PERN Stack",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1757835441/Screenshot_2025-09-14_at_08.05.24_keyfsc.png",
+      title: "AROMETA",
+      description: "Customized Chef Prepared meal ordering and delivery system",
+      url: "https://arometa.co.uk",
+      stacks: "MERN Stack",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702827321/Portfolio/ziara_uxazgg.png",
+      title: "Ziara",
+      description: "A Creative fashion E-commerce Website",
+      url: "https://ziara-fashion.netlify.app",
+      stacks: "Vanilla JS + TailwindCSS + GSAP",
+    },
+    {
+      image:
         "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171818/Portfolio/plwlsn_vzfx1b.png",
       title: "PL-WLSN Stores",
       description: "A Men's fashion store for exclusive wears for PLWLSN Brand",
       url: "https://plwlsn.netlify.app",
       stacks: "React + CSS + Paystack",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1714452562/Portfolio/wasset_jetsia.png",
-      title: "Wasset",
-      description:
-        "A waste market place that connects waste producers to waste collectors and recyclers",
-      url: "https://wasset.io",
-      stacks: "React Js + Next JS + TypeScript + Tailwind CSS",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702826717/Portfolio/jubal_Dashboard_fcgzig.png",
-      title: "Jubal",
-      description:
-        "A marketplace for Africa's foremost creative and musical talents",
-      url: "https://thejubal.com",
-      stacks: "Next Js + TypeScript + Tailwind CSS",
     },
     {
       image:
@@ -37,14 +43,6 @@ function Portfolio() {
         "A voting app that is used for conducting elections and polls in institutions and organizations",
       url: "https://electpoll.com",
       stacks: "React JS + Airtable",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702827321/Portfolio/ziara_uxazgg.png",
-      title: "Ziara",
-      description: "A Creative fashion E-commerce Website",
-      url: "https://ziara-fashion.netlify.app",
-      stacks: "Vanilla JS + TailwindCSS + GSAP",
     },
     // {
     //   image:
