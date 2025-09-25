@@ -44,23 +44,23 @@ function Portfolio() {
       url: "https://electpoll.com",
       stacks: "React JS + Airtable",
     },
-    // {
-    //   image:
-    //     "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1702827283/Portfolio/traka_jprwc6.png",
-    //   title: "Traka",
-    //   description: "A task management app for tracking daily productivity",
-    //   url: "https://traka-manager.netlify.app",
-    //   stacks: "React JS + TailwindCSS + Firebase",
-    // },
-    // {
-    //   image:
-    //     "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171806/Portfolio/metamask_jjllnl.png",
-    //   title: "Metamask",
-    //   description:
-    //     "A web3 real estate app that allows users to rent properties in the metaverse using etherium",
-    //   url: "https://rentnft.netlify.app",
-    //   stacks: "React Js + CSS",
-    // },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1758814649/Screenshot_2025-09-25_at_16.36.28_ncfxei.png",
+      title: "Gymeo",
+      description: "Website for a fitness coach",
+      url: "https://gymeeo.webflow.io/",
+      stacks: "Webflow",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1758798641/Screenshot_2025-09-25_at_12.08.48_hygner.png",
+      title: "Yellow Homes",
+      description:
+        "A web3 real estate management app that allows users to rent properties in the metaverse using etherium",
+      url: "https://yellow-homes.webflow.io/",
+      stacks: "Webflow",
+    },
     {
       image:
         "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1699171780/Portfolio/sanwo_fi6nb8.png",
