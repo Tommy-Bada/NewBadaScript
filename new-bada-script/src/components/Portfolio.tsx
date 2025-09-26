@@ -46,19 +46,18 @@ function Portfolio() {
     },
     {
       image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1758814649/Screenshot_2025-09-25_at_16.36.28_ncfxei.png",
-      title: "Gymeo",
-      description: "Website for a fitness coach",
-      url: "https://gymeeo.webflow.io/",
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1758864820/Screenshot_2025-09-26_at_06.31.21_wmjt1n.png",
+      title: "Titaja",
+      description: "A product marketing website for marketing teams",
+      url: "https://www.titaja.com/",
       stacks: "Webflow",
     },
     {
       image:
-        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1758798641/Screenshot_2025-09-25_at_12.08.48_hygner.png",
-      title: "Yellow Homes",
-      description:
-        "A web3 real estate management app that allows users to rent properties in the metaverse using etherium",
-      url: "https://yellow-homes.webflow.io/",
+        "https://res.cloudinary.com/dhuoa5mmo/image/upload/v1758864848/Screenshot_2025-09-26_at_06.31.52_segvwr.png",
+      title: "Hollam Recruit",
+      description: "A marketplace for teachers and learners",
+      url: "https://www.hollamrecruit.co.uk/",
       stacks: "Webflow",
     },
     {
