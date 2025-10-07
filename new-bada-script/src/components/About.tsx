@@ -14,11 +14,22 @@ function About() {
       </div>
       <h1>Hello, I am Tomiwa Bada</h1>
       <h2> &lt; BadaScript /&gt;</h2>
-      <p>
-        I'm a dedicated full stack developer with a relentless drive to be world
-        class. I'm committed to mastering the craft and delivering extraordinary
-        products.
+      <p className="about-text">
+        I’m a <span>Front-end Developer</span> driven by aesthetics and
+        simplicity. I like to think of myself as an abstract painter — with the
+        browser as my canvas and <span>JavaScript</span> as my brush.
       </p>
+      <ul className="stack-list">
+        <li>TypeScript</li>
+        <li>React.js</li>
+        <li>Next.js</li>
+        <li>Tailwind CSS</li>
+        <li>GSAP</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MongoDB</li>
+        <li>PostgreSQL</li>
+      </ul>
     </div>
   );
 }

@@ -17,7 +17,7 @@ function Portfolio() {
       title: "AROMETA",
       description: "Customized Chef Prepared meal ordering and delivery system",
       url: "https://arometa.co.uk",
-      stacks: "MERN Stack",
+      stacks: "Next Js + TailwindCSS",
     },
     {
       image:
